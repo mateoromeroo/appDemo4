@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Activity_compras"
+    android:background="#eb000000">
+
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="214dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/LayoudImagen"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagenPortada"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="215dp"
+            android:layout_height="214dp"
+            android:background="#ff000d"
+            android:gravity="center"
+            android:padding="7dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Nombre : " />
+
+            <TextView
+                android:id="@+id/textViewDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Duracion : " />
+
+            <TextView
+                android:id="@+id/textViewDescription"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:text="Descripcion : "
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Fecha de estreno : " />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="177dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginBottom="133dp"
+        android:background="#F78181">
+
+        <Spinner
+            android:id="@+id/SpinnerPrecio"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/textView12"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp" />
+
+        <Spinner
+            android:id="@+id/SpinnerHora"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/textView12"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="67dp"
+            android:layout_marginEnd="29dp" />
+
+        <Spinner
+            android:id="@+id/SpinnerLugar"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/textView12"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="29dp" />
+
+        <Spinner
+            android:id="@+id/SpinnerSala"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignTop="@+id/textView12"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="133dp"
+            android:layout_marginEnd="28dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginBottom="14dp"
+            android:textColor="#ffffff"
+            android:text="Sala de cine" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView16"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="47dp"
+            android:textColor="#ffffff"
+            android:text="Lugar" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:textColor="#ffffff"
+            android:text="Hora" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="46dp"
+            android:textColor="#ffffff"
+            android:text="Fecha" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="12dp"
+            android:textColor="#ffffff"
+            android:text="Precio  " />
+
+        <TextView
+            android:id="@+id/viewFecha"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="46dp"
+            android:layout_marginEnd="29dp"
+            android:text="Seleccionar fecha" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bttnvolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="29dp"
+        android:background="#ebf52320"
+        android:textColor="#ffffff"
+        android:text="Volver" />
+
+    <Button
+        android:id="@+id/bttncomprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="29dp"
+        android:background="#ebf52320"
+        android:textColor="#ffffff"
+        android:text="Comprar" />
+
+</RelativeLayout>

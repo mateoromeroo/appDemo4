@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".fragments.detalleProducto">
+
+<!-- TODO: Update blank fragment layout -->
+<ImageView
+    android:id="@+id/imagenDetalleId"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:scaleType="fitXY"
+    android:layout_marginBottom="10dp"/>
+
+<TextView
+    android:id="@+id/descripcionId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Descripcion"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cantidad que desea comprar:" />
+
+    <EditText
+        android:id="@+id/cantidadComprarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAgregarCarrito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar a carrito" />
+
+    <Button
+        android:id="@+id/btnComprarAhoraProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprar ahora" />
+
+</LinearLayout>

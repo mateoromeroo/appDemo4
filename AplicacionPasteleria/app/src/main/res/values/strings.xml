@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">AplicacionPasteleria</string>
+
+    <!-- String Main -->
+    <string name="nameSesion">INICIA SESIÓN</string>
+    <string name="nameRegistrarse">REGISTRARSE</string>
+    <!-- Fin Main -->
+
+    <!-- String Login -->
+    <string name="iniLogin">INICIA SESIÓN</string>
+    <string name="regLogin">REGISTRARSE</string>
+    <string name="olviLogin">¿OLVIDASTE TU CONTRASEÑA?</string>
+    <string name="primerLogin">¿PRIMERA VEZ?</string>
+
+    <string name="corrLogin">Correo electrónico</string>
+    <string name="contLogin">Contraseña</string>
+    <!-- Fin Login -->
+
+    <!-- String Registro -->
+    <string name="reRegistro">REGISTRARSE</string>
+    <string name="DNI">DNI</string>
+    <string name="Apellido">Apellidos</string>
+    <string name="nombre">Nombres</string>
+    <string name="direccion">Dirección</string>
+    <string name="distrito">Distrito</string>
+    <string name="fechaNacimiento">Fecha de Nacimiento</string>
+    <string name="celular">Celular</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <!-- Fin Registro -->
+
+    <!-- String ActionBarDrawer -->
+    <string name="open">OPEN</string>
+    <string name="close">Close</string>
+    <!-- Fin ActionBarDrawer -->
+
+    <!-- String Inicio -->
+    <string name="cupoInicio">CUPONES</string>
+    <string name="catálogoInicio">CATÁLOGO</string>
+    <string name="ubicanosInicio">UBÍCANOS</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Fragment Perfil -->
+    <string name="InicioPerfil">Bievenido</string>
+    <string name="ModiPerfil">Modificar datos</string>
+    <string name="PhotoPerfil">Cambiar Foto</string>
+    <string name="ElimPeril">Eliminar Cuenta</string>
+    <!-- Fin Pefil -->
+
+    <!-- Fragment Modificar Perfil -->
+    <string name="GuardModPerfil">Guardar cambios</string>
+    <string name="CancelarModPerfil">Cancelar</string>
+    <!-- Fin Pefil -->
+
+
+    <!-- Fragment Carrito -->
+    <string name="InicioCarrito">Bievenido</string>
+    <!-- Fin Pefil -->
+
+</resources>
+

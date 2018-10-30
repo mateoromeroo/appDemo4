@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#a3c490">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/pastelinfantil"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="76dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:textSize="@dimen/tamPequeño"
+                        android:text="Producto" />
+
+                    <TextView
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="Pastel Infantil"
+                        android:textSize="@dimen/tamPequeño"
+                        android:textAlignment="textEnd" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="115dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Precio Unitario"
+                        android:textSize="@dimen/tamPequeño" />
+
+                    <TextView
+                        android:layout_width="106dp"
+                        android:layout_height="wrap_content"
+                        android:text="5.00"
+                        android:textAlignment="textEnd"
+                        android:textSize="@dimen/tamPequeño" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="108dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="15dp"
+                        android:text="Cantidad"
+                        android:textSize="@dimen/tamPequeño" />
+
+                    <Button
+                        android:id="@+id/aumentarArticuloList"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:text="-" />
+
+                    <Button
+                        android:id="@+id/disminuirArticuloList"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:text="+" />
+
+                    <EditText
+                        android:layout_width="73dp"
+                        android:layout_height="25dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="117dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="Subtotal"
+                        android:textSize="@dimen/tamPequeño" />
+
+                    <TextView
+                        android:layout_width="104dp"
+                        android:layout_height="wrap_content"
+                        android:text="50.00"
+                        android:textAlignment="textEnd"
+                        android:textSize="@dimen/tamPequeño" />
+                </LinearLayout>
+
+            </LinearLayout>
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

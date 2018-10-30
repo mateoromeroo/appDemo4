@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark"
+            android:padding="12dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/InicioPerfil"
+                android:textSize="@dimen/tamMediano"
+                android:textColor="@color/subTitulo"
+                />
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/apellPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/Apellido"
+                    android:layout_margin="15dp"
+                    />
+                <TextView
+                    android:id="@+id/nomPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/nombre"
+                    android:layout_margin="15dp"
+                    />
+                <TextView
+                    android:id="@+id/direcPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/direccion"
+                    android:layout_margin="15dp"
+                    />
+                <TextView
+                    android:id="@+id/distrPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/distrito"
+                    android:layout_margin="15dp"
+                    />
+                <TextView
+                    android:id="@+id/fech_NacPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/fechaNacimiento"
+                    android:layout_margin="15dp"
+                    />
+                <TextView
+                    android:id="@+id/celuPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/celular"
+                    android:layout_margin="15dp"
+                    />
+                <TextView
+                    android:id="@+id/correoPerfil"
+                    style="@style/RegistroEditText"
+                    android:hint="@string/correo"
+                    android:layout_margin="15dp"
+                    />
+
+                <Button
+                    android:id="@+id/btnModPerfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tamPequeño"
+                    android:text="@string/ModiPerfil"
+                    android:layout_marginBottom="5dp"
+                    />
+                <Button
+                    android:id="@+id/btnpPhotoPerfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/tamPequeño"
+                    android:text="@string/PhotoPerfil"
+                    android:layout_marginBottom="5dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

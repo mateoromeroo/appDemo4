@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e91e63</color>
+    <color name="colorPrimaryDark">#222d32</color>
+    <color name="colorAccent">#fff</color>
+
+    <color name="subTitulo">#ffffff</color>
+
+    <!-- Color Inicio -->
+    <color name="subInicio">#ffffff</color>
+    <color name="diferente">#654</color>
+    <!--Color Inicio -->
+</resources>

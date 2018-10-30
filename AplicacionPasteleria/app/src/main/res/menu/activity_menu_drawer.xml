@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1"
+        >
+        <item android:id="@+id/inInicio" android:title="Inicio"  />
+        <item android:id="@+id/perInicio" android:title="Mi Perfil" />
+        <item android:id="@+id/carInicio" android:title="Carrito" />
+        <item android:id="@+id/hisPeInicio" android:title="Historial de pedidos" />
+        <item android:id="@+id/catInicio" android:title="Catálogo" />
+        <item android:id="@+id/cupInicio" android:title="Cupones" />
+        <item android:id="@+id/ubiInicio" android:title="Ubícanos" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2"
+        >
+        <item android:id="@+id/cerrInicio" android:title="Cerrar Sesión"  />
+    </group>
+
+</menu>

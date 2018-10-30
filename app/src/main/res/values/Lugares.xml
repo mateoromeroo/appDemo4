@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lugaresoptions" >
+        <item>La Molina</item>
+        <item>San Miguel</item>
+        <item>Los Olivos</item>
+        <item>Miraflores</item>
+        <item>San Isidro</item>
+        <item>Santiago de Surco</item>
+    </string-array>
+
+
+
+</resources>
